@@ -81,7 +81,7 @@ async function run() {
             res.send(orders);
         });
 
-        // Get Single
+        // Get Single API
         app.get('/tours/:id', async (req, res) => {
             const id = req.params.id;
             const query = { _id: ObjectId(id) };
@@ -110,6 +110,14 @@ async function run() {
             const id = req.params.id;
             const query = { _id: ObjectId(id) };
             const order = await userCollection.findOne(query);
+            res.json(order);
+        });
+
+        // Delete Single API
+        app.delete('/orders/:id', async (req, res) => {
+            const id = req.params.id;
+            const query = { _id: ObjectId(id) };
+            const order = await userCollection.deleteOne(query);
             res.json(order);
         });
     }
