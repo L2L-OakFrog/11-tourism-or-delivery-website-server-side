@@ -26,6 +26,7 @@ async function run() {
         const hotelCollection = database.collection("hotels");
         const restaurantsCollection = database.collection("restaurants");
         const userCollection = database.collection("users");
+        const orderCollection = database.collection("orders");
 
         //POST API
         app.post('/tours', async (req, res) => {
@@ -114,12 +115,12 @@ async function run() {
         });
 
         // Delete Single API
-        app.delete('/orders/:id', async (req, res) => {
-            const id = req.params.id;
-            const query = { _id: ObjectId(id) };
-            const order = await userCollection.deleteOne(query);
-            res.json(order);
-        });
+        // app.delete('/orders/:id', async (req, res) => {
+        //     const id = req.params.id;
+        //     const query = { _id: ObjectId(id) };
+        //     const order = await userCollection.deleteOne(query);
+        //     res.json(order);
+        // });
     }
     finally {
         //await client.close();
