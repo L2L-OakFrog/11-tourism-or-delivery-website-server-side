@@ -75,6 +75,7 @@ Click Here: [Live Site (Netlify)](https://compassionate-shirley-184a94.netlify.a
 
 1. Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass (Firebase Deploy),
 2. {"hosting": {"public": "build","rewrites": [{"source": "** ","destination": "/index.html"}],"ignore": [ "firebase.json","** /.*","** /node_modules/**"]}} (404 reload issue **turn on auto-format),
+3. git push heroku main
 
 ### Live Site (Firebase): https://assignment-10-d8235.web.app/
 ### Live Site (Netlify): https://friendly-leakey-37ef00.netlify.app/

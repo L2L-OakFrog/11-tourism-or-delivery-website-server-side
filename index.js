@@ -25,6 +25,7 @@ async function run() {
         const tourCollection = database.collection("tours");
         const hotelCollection = database.collection("hotels");
         const restaurantsCollection = database.collection("restaurants");
+        const userCollection = database.collection("users");
 
         //POST API
         app.post('/tours', async (req, res) => {
@@ -40,6 +41,11 @@ async function run() {
         app.post('/restaurants', async (req, res) => {
             const restaurant = req.body;
             const result = await restaurantsCollection.insertOne(restaurant);
+            res.json(result);
+        });
+        app.post('/users', async (req, res) => {
+            const user = req.body;
+            const result = await userCollection.insertOne(user);
             res.json(result);
         });
 
@@ -58,6 +64,11 @@ async function run() {
             const cursor = restaurantsCollection.find({});
             const restaurants = await cursor.toArray();
             res.send(restaurants);
+        });
+        app.get('/users', async (req, res) => {
+            const cursor = userCollection.find({});
+            const users = await cursor.toArray();
+            res.send(users);
         });
 
         // Get Single
@@ -78,6 +89,12 @@ async function run() {
             const query = { _id: ObjectId(id) };
             const restaurant = await restaurantsCollection.findOne(query);
             res.json(restaurant);
+        });
+        app.get('/users/:id', async (req, res) => {
+            const id = req.params.id;
+            const query = { _id: ObjectId(id) };
+            const user = await userCollection.findOne(query);
+            res.json(user);
         });
     }
     finally {
