@@ -48,6 +48,11 @@ async function run() {
             const result = await userCollection.insertOne(user);
             res.json(result);
         });
+        app.post('/orders', async (req, res) => {
+            const order = req.body;
+            const result = await orderCollection.insertOne(order);
+            res.json(result);
+        });
 
         //GET API
         app.get('/tours', async (req, res) => {
@@ -69,6 +74,11 @@ async function run() {
             const cursor = userCollection.find({});
             const users = await cursor.toArray();
             res.send(users);
+        });
+        app.get('/orders', async (req, res) => {
+            const cursor = orderCollection.find({});
+            const orders = await cursor.toArray();
+            res.send(orders);
         });
 
         // Get Single
@@ -95,6 +105,12 @@ async function run() {
             const query = { _id: ObjectId(id) };
             const user = await userCollection.findOne(query);
             res.json(user);
+        });
+        app.get('/orders/:id', async (req, res) => {
+            const id = req.params.id;
+            const query = { _id: ObjectId(id) };
+            const order = await userCollection.findOne(query);
+            res.json(order);
         });
     }
     finally {
