@@ -1,4 +1,4 @@
-# OakTour its okay to take a tour now..
+# OakTour its okay to take a tour
 
 This site is made to ensure your tour related needs at `OakTour`
 
@@ -14,9 +14,9 @@ This site is made to ensure your tour related needs at `OakTour`
 
 ## Learn More
 
-Click Here: [Live Site (Firebase)]()
+Click Here: [Live Site (Firebase)](https://oak-tours.web.app/)
 <br />
-Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
+Click Here: [Live Site (Netlify)](https://compassionate-shirley-184a94.netlify.app/)
 
 # Assignment-11
 
@@ -28,17 +28,17 @@ Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
 
 3. Use `Max. 1 CSS Framework` (React-Bootstarp, Material UI, Tailwind etc.); ✔
 
-5. Make `Header & Footer` stays in every route; ✔
+4. Make `Header & Footer` stays in every route; ✔
 
-7. Create something unique in the `top banner` in Home page; ✔
+5. Create something unique in the `top banner` in Home page; ✔
 
-9. Create `2 Extra` items in Home page; ✔
+6. Create `2 Extra` items in Home page; ✔
 
-4. Create navigation with `Min. 7 Route` in header; ✔
+7. Create navigation with `Min. 7 Route` in header; ✔
 
-6. Show a broken link `404 Error` page; ✔
+8. Show a broken link `404 Error` page; ✔
 
-8. Show `Services` in websites with `name,image,short description,detail button`; ✔
+9. Show `Services` in websites with `name,image,short description,detail button`; ✔
 
 10. Implement `Login-Logout` in header and page; ✔
 
@@ -48,7 +48,9 @@ Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
 
 13. Create `buttons` with active functionality; ✔
 
-14. Show `User Name` after login. ✔
+14. Show `User Name` after login; ✔
+
+15. Implement `My Order` with `Delete`;
 
 ## Bonus:
 
@@ -76,5 +78,6 @@ Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
 
 ### Live Site (Firebase): https://assignment-10-d8235.web.app/
 ### Live Site (Netlify): https://friendly-leakey-37ef00.netlify.app/
+### Heroku (Server): https://pure-eyrie-69335.herokuapp.com/
 ### GitHub (Client): https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-L2L-OakFrog
 ### GitHub (Server): https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-L2L-OakFrog
