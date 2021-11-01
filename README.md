@@ -1,44 +1,44 @@
-# Feeling Unusual? Visit MediCare, We are here for you..
+# OakTour its okay to take a tour now..
 
-This site is made to ensure your good health `MediCare Because We care`
+This site is made to ensure your tour related needs at `OakTour`
 
 ## `Services:`
 
 <ul>
 <li>You can choose from various available services in our website;</li>
 <li>Check every details of your chosen services & make an appointment;</li>
-<li>Preview our team of Doctors and Check their every details.;</li>
-<li>Browse our gallery to check our healthy environment;</li>
+<li>Preview our tours and Check their every details.;</li>
+<li>Browse our gallery to check our previous customer reviews;</li>
 <li>Create an account in our website to get future services and discounts if available.</li>
 </ul>
 
 ## Learn More
 
-Click Here: [Live Site (Firebase)](https://assignment-10-d8235.web.app/)
+Click Here: [Live Site (Firebase)]()
 <br />
 Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
 
-# Assignment-9
+# Assignment-11
 
 ## To-Do:
 
 1. Decide the `theme & name of website` based on healthcare related services; ✔
 
-2. Create `fake Data` based on the theme; ✔
+2. Create `Backend` working server; ✔
 
 3. Use `Max. 1 CSS Framework` (React-Bootstarp, Material UI, Tailwind etc.); ✔
 
-4. Create navigation with `Min. 7 Route` in header (Home, Services, Doctors, Contact, Login); ✔
-
 5. Make `Header & Footer` stays in every route; ✔
-
-6. Show a broken link `404 Error` page; ✔
 
 7. Create something unique in the `top banner` in Home page; ✔
 
-8. Show featured `6 Services` in Home page with `name,image,short description,detail button`; ✔
+9. Create `2 Extra` items in Home page; ✔
 
-9. Create something `Extra` in Home page; ✔
+4. Create navigation with `Min. 7 Route` in header; ✔
+
+6. Show a broken link `404 Error` page; ✔
+
+8. Show `Services` in websites with `name,image,short description,detail button`; ✔
 
 10. Implement `Login-Logout` in header and page; ✔
 
@@ -54,20 +54,20 @@ Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
 
 1. `Responsive`; ✔
 2. `Context API`; ✔
-3. `Dynamic Route`; ✔
+3. `Manage All Orders`; 
 4. `Local Storage` (optional);
 5. `Variation in Design`; ✔
 6. `Organized Codes`; ✔
 7. `ReadMe File`; ✔
 
-## My React Setups:
+## My Backend Setups:
 
-1. Install React Router, ✔
-2. Install Firebase, ✔
-3. Install React Bootstrap, ✔
-4. Install Font Awesome, ✔
-5. Install Hash Link, ✔
-5. Install React Hook Form, ✔
+1. Install `Express`, ✔
+2. Install `MongoDB`, ✔
+3. Install `Cors` & place `app.use(cors());app.use(express.json());`, ✔
+4. Install `DotEnv` & place `require('dotenv').config();`, ✔
+5. Require `ObjectId` from MongoDB ✔
+5. Create `.env & .gitignore` file & place `node_modules & .env`, ✔
 
 ## Imp:
 
@@ -76,4 +76,5 @@ Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
 
 ### Live Site (Firebase): https://assignment-10-d8235.web.app/
 ### Live Site (Netlify): https://friendly-leakey-37ef00.netlify.app/
-### GitHub: https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-L2L-OakFrog
+### GitHub (Client): https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-L2L-OakFrog
+### GitHub (Server): https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-L2L-OakFrog
